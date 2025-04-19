@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'primeflex/primeflex.min.css';
+@import 'primeicons/primeicons.css';
+
+* {
+    font-family: Inter, sans-serif;
+}
+
+
+@media only screen and (width >= 440px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+
+@media only screen and (width >= 972px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
+@media only screen and (width >= 1280px) {
+    body {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
